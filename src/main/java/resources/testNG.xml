@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="homeTaskSuite" parallel="tests" thread-count="8">
+    <listeners>
+        <listener class-name="listeners.Listener"></listener>
+    </listeners>
+    <test name="longSumTest">
+        <classes>
+            <class name="tests.longSumTest"></class>
+        </classes>
+    </test>
+    <test name="longSubTest">
+        <classes>
+            <class name="tests.longSubTest"></class>
+        </classes>
+    </test>
+    <test name="longMultTest">
+        <classes>
+            <class name="tests.longMultTest"></class>
+        </classes>
+    </test>
+    <test name="longDivTest">
+        <classes>
+            <class name="tests.longDivTest"></class>
+        </classes>
+    </test>
+    <test name="doubleTgTest">
+        <classes>
+            <class name="tests.doubleTgTest"></class>
+        </classes>
+    </test>
+    <test name="doubleSumTest">
+        <classes>
+            <class name="tests.doubleSumTest"></class>
+        </classes>
+    </test>
+    <test name="doubleSubTest">
+        <classes>
+            <class name="tests.doubleSubTest"></class>
+        </classes>
+    </test>
+    <test name="doubleSqrtTest">
+        <classes>
+            <class name="tests.doubleSqrtTest"></class>
+        </classes>
+    </test>
+    <test name="doubleSinTest">
+        <classes>
+            <class name="tests.doubleSinTest"></class>
+        </classes>
+    </test>
+    <test name="doublePowTest">
+        <classes>
+            <class name="tests.doublePowTest"></class>
+        </classes>
+    </test>
+    <test name="doubleMultTest">
+        <classes>
+            <class name="tests.doubleMultTest"></class>
+        </classes>
+    </test>
+    <test name="doubleDivTest">
+        <classes>
+            <class name="tests.doubleDivTest"></class>
+        </classes>
+    </test>
+    <test name="doubleCtgTest">
+        <classes>
+            <class name="tests.doubleCtgTest"></class>
+        </classes>
+    </test>
+    <test name="doubleCosTest">
+        <classes>
+            <class name="tests.doubleCosTest"></class>
+        </classes>
+    </test>
+    <test name="boolIsPositiveTest">
+        <classes>
+            <class name="tests.boolisPositiveTest"></class>
+        </classes>
+    </test>
+    <test name="boolIsNegativeTest">
+        <classes>
+            <class name="tests.boolIsNegativeTest"></class>
+        </classes>
+    </test>
+    <test name="longDivTestWOE">
+        <classes>
+            <class name="tests.longDivTestWOE"></class>
+        </classes>
+    </test>
+</suite>
