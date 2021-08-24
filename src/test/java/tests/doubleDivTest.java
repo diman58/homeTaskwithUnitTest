@@ -30,7 +30,7 @@ public class doubleDivTest extends BaseTest{
         }
         x[4][0] = random.nextDouble();
         x[4][1] = 0d;
-        x[4][2] = Infinity;
+        x[4][2] = (Double) x[4][0]/(Double) x[4][1];
         return x;
     }
 }
